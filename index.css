@@ -97,7 +97,7 @@ footer{
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 50%; /* Could be more or less, depending on screen size */
   }
   
   /* The Close Button */
@@ -106,7 +106,7 @@ footer{
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
+}
   
   .close:hover,
   .close:focus {
@@ -117,4 +117,7 @@ footer{
 
   #myBtn{
     width: 100px;
+  }
+  .hobbyList input{
+    width: 500px;
   }
