@@ -52,6 +52,11 @@ header{
     padding: 30px;
     padding-left: 50px;
 }
+.hobbyButtons{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
 #pfp{
     width: 250px;
@@ -93,7 +98,7 @@ footer{
   
   /* Modal Content/Box */
   .modal-content {
-    background-color: #392137;
+    background-color: #3e3945;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
@@ -118,6 +123,7 @@ footer{
   #myBtn{
     width: 100px;
   }
-  .hobbyList input{
-    width: 500px;
+  .hobbyButtons input{
+    margin: 50px;
+    width: 400px;
   }
